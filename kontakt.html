@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sajt o muzeju Luvru u Parizu">
+    <meta name="keywords" content="Luvr, Muzej, Pariz, Umetnost, Istorija, Kultura">
+    <title>Kontakt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/ikonica.png">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <header>
+                <h1>Kontaktirajte nas</h1>
+            </header>
+        </div>
+        <div class="telo">
+            <nav class="navbar">
+                <ul class="meni" id="meni">
+                    <li class="stavka"><a class="link" href="index.html">Pocetna</a></li>
+                    <li class="stavka"><a class="link" href="galerija.html">Galerija</a></li>
+                    <li class="stavka"><a class="link" href="omuzeju.html">O muzeju</a></li>
+                    <li class="stavka"><a class="link" href="kontakt.html">Kontakt</a></li>
+                </ul>
+            </nav>
+            <section>
+                <form action="#" id="forma">
+                    <label for="ime">Ime:</label>
+                    <input type="text" id="ime" name="ime" required>
+        
+                    <label for="email">Mejl adresa:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="povod">Povod poruke:</label>
+                    <select id="povod" name="povod" required>
+                        <option value="" disabled selected>Povod poruke</option>
+                        <option value="pn">Pitanje/Nedoumica</option>
+                        <option value="bug">Bug</option>
+                        <option value="pr">Primedbe</option>
+                    </select>
+
+                    <label for="poruka">Poruka:</label>
+                    <textarea id="poruka" name="poruka" rows="4" required></textarea>
+        
+                    <input type="submit" value="Pošalji">
+                </form>
+            </section>
+        </div>
+        <div class="futer">
+            <footer>
+                <p>&copy; 2023 Muzej Luvr</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
